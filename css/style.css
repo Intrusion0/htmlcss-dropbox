@@ -12,6 +12,20 @@ body {
     font-family: 'Open Sans', sans-serif
 }
 
+/* button */
+
+.btn {
+    color: white;
+    background-color: #0061ff;
+}
+
+/* centratura */
+
+.centratura {
+    width: 85%;
+    margin: 0 auto;
+}
+
 /* Intestazione */
 
 header {
@@ -45,12 +59,6 @@ header .clearfix::after {
     text-align: right;
 }
 
-#btn-header {
-    padding: 5px 20px;
-    font-size: 13px;
-    color: white;
-}
-
 .text ul {
     list-style: none;
 }
@@ -67,6 +75,12 @@ header .clearfix::after {
     font-weight: 600;
 }
 
+#btn-header {
+    padding: 5px 20px;
+    font-size: 13px;
+    color: white;
+}
+
 /* Jumbotron */
 
 #jumbotron {
@@ -81,11 +95,6 @@ header .clearfix::after {
     clear: both;
 }
 
-.centratura {
-    width: 85%;
-    margin: 0 auto;
-}
-
 #title {
     width: 100%;
     padding: 80px 0 60px 0;
@@ -95,6 +104,8 @@ header .clearfix::after {
     font-size: 95px;
     line-height: 108px;
 }
+
+/* colonna sinistra */
 
 .left-column {
     float: left;
@@ -108,6 +119,27 @@ header .clearfix::after {
     line-height: 26px;
 }
 
+.left-column a {
+    text-decoration: none;
+}
+
+.left-column div{
+    margin: 20px 0 30px 0;
+}
+
+.btn.btn-jumbo {
+    padding: 8px 30px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.arrow-style {
+    color: black;
+    font-size: 40px;
+}
+
+/* colonna destra */
+
 .right-column {
     float: right;
     width: 60%;
@@ -117,28 +149,104 @@ header .clearfix::after {
     width: 100%;
 }
 
-.left-column a {
-    text-decoration: none;
+/* Corpo centrale */
+
+.centratura_main {
+    width: 70%;
+    margin: 0 auto;
+    /* debug */
+    background-color: violet;
+    height: 1000px;
 }
 
-.left-column div{
-    margin: 20px 0 30px 0;
+.piano_tariffario {
+    /* debug */
+    background-color: yellowgreen;
+    width: 100%;
+    height: 1500px;
 }
 
-.arrow-style {
-    color: black;
-    font-size: 40px;
+.piano_tariffario .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-/* button */
-.btn {
-    color: white;
-    background-color: #0061ff;
+.piano_tariffario h2 {
+    font-size: 45px;
+    margin-top: 200px;
+    margin-bottom: 50px;
 }
 
-.btn.btn-jumbo {
-    padding: 8px 30px;
-    font-size: 16px;
-    line-height: 26px;
+.piano_tariffario form {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
 
+.colonna {
+    float: left;
+    width: calc(100% / 3 - 40px);
+    border: solid 1px rgb(100, 100, 100);
+    /* debug */
+    background-color: red;
+    height: 700px;
+}
+
+.colonna.centrale {
+    margin: 0 60px;
+}
+
+.enterprise {
+    margin-top: 50px;
+    border: solid 1px rgb(100, 100, 100);
+    /* debug */
+    background-color: red;
+    height: 300px;
+}
+
+.enterprise .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.enterprise_left_column {
+    float: left;
+    width: 70%;
+    /* debug */
+    background-color: orange;
+    height: 150px;
+}
+
+.enterprise_right_column {
+    float: left;
+    width: 30%;
+    /* debug */
+    background-color: blue;
+    height: 150px;
+}
+
+.centratura_text_column {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    /* debug */
+    background-color: lime;
+    height: 500px;
+}
+
+.fa-user::before {
+    margin: 0 5px 0 0;
+}
+
+.fa-building::before {
+    margin: 0 5px 0 0;
+}
+
+.icon {
+    text-align: center;
+    border-bottom: solid 1px rgb(100, 100, 100);
+    padding: 15px 0;
+}
