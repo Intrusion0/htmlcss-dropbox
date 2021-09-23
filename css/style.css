@@ -154,16 +154,10 @@ header .clearfix::after {
 .centratura_main {
     width: 70%;
     margin: 0 auto;
-    /* debug */
-    background-color: violet;
-    height: 1000px;
 }
 
 .piano_tariffario {
-    /* debug */
-    background-color: yellowgreen;
     width: 100%;
-    height: 1500px;
 }
 
 .piano_tariffario .clearfix::after {
@@ -185,13 +179,59 @@ header .clearfix::after {
     margin-bottom: 30px;
 }
 
+.piano_tariffario h3 {
+    font-size: 37px;
+}
+
+.piano_tariffario span {
+    display: block;
+    margin: 25px 0;
+}
+
+.piano_tariffario .span_margin_bottom {
+    margin-bottom: 60px;
+}
+
+.seconda_sezione h4 {
+    padding: 20px 0 10px 0;
+    font-size: 22px;
+}
+
+.terza_sezione h4 {
+    padding: 50px 0 15px 0;
+    font-size: 20px;
+}
+
+.p_weight {
+    font-weight: 600;
+    padding: 40px 0;
+}
+
+.p_weight a {
+    color: #0061ff;
+}
+
+.btn.btn-piano-tariffario {
+    padding: 8px 50px;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.grey {
+    color: lightslategrey;
+    margin-bottom: 50px;
+}
+
+.style_hr {
+    width: 20%;
+    border: solid 1px rgb(100, 100, 100);
+}
+
 .colonna {
     float: left;
     width: calc(100% / 3 - 40px);
     border: solid 1px rgb(100, 100, 100);
-    /* debug */
-    background-color: red;
-    height: 700px;
 }
 
 .colonna.centrale {
@@ -229,12 +269,9 @@ header .clearfix::after {
 }
 
 .centratura_text_column {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
     margin-top: 40px;
-    /* debug */
-    background-color: lime;
-    height: 500px;
 }
 
 .fa-user::before {
