@@ -12,6 +12,10 @@ body {
     font-family: 'Open Sans', sans-serif
 }
 
+.far {
+    font-size: 20px;
+}
+
 /* button */
 
 .btn {
@@ -167,8 +171,8 @@ header .clearfix::after {
 }
 
 .piano_tariffario h2 {
-    font-size: 45px;
-    margin-top: 200px;
+    font-size: 50px;
+    margin-top: 230px;
     margin-bottom: 50px;
 }
 
@@ -176,7 +180,7 @@ header .clearfix::after {
     display: inline-block;
     margin-right: 20px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .piano_tariffario h3 {
@@ -195,11 +199,6 @@ header .clearfix::after {
 .seconda_sezione h4 {
     padding: 20px 0 10px 0;
     font-size: 22px;
-}
-
-.terza_sezione h4 {
-    padding: 50px 0 15px 0;
-    font-size: 20px;
 }
 
 .p_weight {
@@ -225,25 +224,43 @@ header .clearfix::after {
 
 .style_hr {
     width: 20%;
-    border: solid 1px rgb(100, 100, 100);
+    border: solid 1px #dddddd;
 }
 
 .colonna {
     float: left;
     width: calc(100% / 3 - 40px);
-    border: solid 1px rgb(100, 100, 100);
+    border: solid 1px #dddddd;
+    padding-bottom: 200px;
+}
+
+.colonna.sx {
+    padding-bottom: 273px;
 }
 
 .colonna.centrale {
     margin: 0 60px;
 }
 
+.terza_sezione h4 {
+    padding: 50px 0 10px 0;
+    font-size: 20px;
+}
+
+.terza_sezione p {
+    margin: 25px 0 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.fa-check::before {
+    color:#0061ff;
+}
+
 .enterprise {
     margin-top: 50px;
-    border: solid 1px rgb(100, 100, 100);
-    /* debug */
-    background-color: red;
-    height: 300px;
+    border: solid 1px #dddddd;
+    padding-bottom: 25px;
 }
 
 .enterprise .clearfix::after {
@@ -252,20 +269,37 @@ header .clearfix::after {
     clear: both;
 }
 
+.centratura_enterprise {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
 .enterprise_left_column {
     float: left;
     width: 70%;
-    /* debug */
-    background-color: orange;
-    height: 150px;
 }
 
 .enterprise_right_column {
     float: left;
     width: 30%;
-    /* debug */
-    background-color: blue;
-    height: 150px;
+    text-align: right;
+    padding: 8px 0;
+}
+
+.enterprise_left_column h4 {
+    padding: 20px 0;
+}
+
+.enterprise_left_column p {
+    padding-top: 10px;
+}
+
+.btn.btn-enterprise {
+    padding: 8px 50px;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
 }
 
 .centratura_text_column {
@@ -284,6 +318,46 @@ header .clearfix::after {
 
 .icon {
     text-align: center;
-    border-bottom: solid 1px rgb(100, 100, 100);
+    border-bottom: solid 1px #dddddd;
     padding: 15px 0;
+}
+
+.partner {
+    margin: 200px 0;
+    /* debug */
+    background-color: red;
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+}
+
+.partner .centratura_main {
+    width: 70%;
+    margin: 0 auto;
+    /* debug */
+    background-color: yellow;
+    height: 600px;
+    
+}
+
+.partner .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#left_column_partner {
+    float: left;
+    width: 50%;
+    /* debug */
+    background-color: green;
+    height: 500px;
+}
+
+#right_column_partner {
+    float: right;
+    width: 45%;
+    /* debug */
+    background-color: green;
+    height: 500px;
 }
