@@ -183,6 +183,10 @@ header .clearfix::after {
     margin-bottom: 40px;
 }
 
+#button-margin {
+    margin-left: 15px;
+}
+
 .piano_tariffario h3 {
     font-size: 37px;
 }
