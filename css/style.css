@@ -183,7 +183,7 @@ header .clearfix::after {
     margin-bottom: 40px;
 }
 
-#button-margin {
+#check-fatturazione-annuale {
     margin-left: 15px;
 }
 
@@ -261,6 +261,8 @@ header .clearfix::after {
     color:#0061ff;
 }
 
+/* riquadro enterprise */
+
 .enterprise {
     margin-top: 50px;
     border: solid 1px #dddddd;
@@ -326,14 +328,10 @@ header .clearfix::after {
     padding: 15px 0;
 }
 
-.partner {
-    margin: 200px 0;
-}
+/* Sezione partner dropbox */
 
-.partner .centratura_main {
-    width: 70%;
-    margin: 0 auto;
-    
+.partner {
+    margin: 200px 0 100px 0;
 }
 
 .partner .clearfix::after {
@@ -352,8 +350,9 @@ header .clearfix::after {
 }
 
 #right_column_partner {
-    float: right;
+    float: left;
     width: 40%;
+    margin-left: 5%;
 }
 
 #right_column_partner h3 {
@@ -375,4 +374,50 @@ header .clearfix::after {
     border: solid 1px black;
     font-weight: 600;
     line-height: 40px;
+}
+
+/* Sezione operazioni dropbox business */
+
+.operazioni {
+    width: 100%;
+    margin: 0 0 200px 0;
+}
+
+.first-row::after, .second-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.operazioni .centratura_main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.operazioni h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.column {
+    float: left;
+    width: calc(100% / 3 - 40px);
+}
+
+.column.central {
+    margin: 0 60px;
+}
+
+.second-row {
+    margin-top: 70px;
+}
+
+.column img {
+    max-width: 100%;
+}
+
+.operazioni h3 {
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 25px;
 }
