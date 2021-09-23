@@ -380,18 +380,13 @@ header .clearfix::after {
 
 .operazioni {
     width: 100%;
-    margin: 0 0 200px 0;
+    margin: 0 0 80px 0;
 }
 
 .first-row::after, .second-row::after {
     content: "";
     display: table;
     clear: both;
-}
-
-.operazioni .centratura_main {
-    width: 70%;
-    margin: 0 auto;
 }
 
 .operazioni h2 {
@@ -416,8 +411,121 @@ header .clearfix::after {
     max-width: 100%;
 }
 
+.operazioni p {
+    font-size: 19px;
+    font-weight: 600;
+}
+
 .operazioni h3 {
     font-size: 32px;
     text-align: left;
     margin-bottom: 25px;
+}
+
+.text_down h2 {
+    width: 55%;
+    font-size: 50px;
+    margin: 230px 0 30px 0;
+}
+
+.text_down a {
+    color: #0061ff;
+    font-weight: 600;
+}
+
+/* Sezione clienti dropbox */
+
+.clienti {
+    /* debug */
+    background-color: violet;
+    height: 600px;
+    width: 100%;
+}
+
+.clienti .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clienti .centratura_main {
+    width: 70%;
+    margin: 0 auto;
+    /* debug */
+    height: ;
+    background-color: red;
+}
+
+.column_clienti {
+    float: left;
+    width: 30%;
+    position: relative;
+    /* debug */
+    background-color: yellow;
+    height: 500px;
+}
+
+.column_clienti_centrale {
+    float: left;
+    width: 40%;
+    /* debug */
+    background-color: green;
+    height: 500px;
+}
+
+.clienti img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.square {
+    height: 50%;
+    width: 50%;
+}
+
+.top_left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#a2d39b;
+}
+
+.top_right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #61082b;
+}
+
+.bottom_left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0093ce;
+}
+
+.bottom_right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ff1c1c;
+}
+
+.red {
+    background-color: #d5001f;
+}
+
+.lightblue {
+    background-color: #b4d0e7;
+}
+
+.blue {
+    background-color: #0d2481;
+}
+
+.yellow {
+    background-color: #ffd830;
 }
