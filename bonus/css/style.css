@@ -87,13 +87,46 @@ header .clearfix::after {
     padding: 5px 20px;
     font-size: 13px;
     color: white;
+    vertical-align: middle;
 }
 
-/* Bonus */
+/* BONUS */
+
+.text.text-right li {
+    line-height: 26px;
+}
 
 .nav_perche_dropbox:hover, .nav_funzioni:hover, .nav_piani_e_prezzi:hover, .nav_supporto:hover, .nav_ufficio_vendite:hover, .nav_accedi:hover {
     border-bottom: solid 2px black;
     padding-bottom: 22px;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    width: 730px;
+    z-index: 30;
+    padding: 40px 0 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.dropdown ul li {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.prima_sezione_dropdown, .seconda_sezione_dropdown, .terza_sezione_dropdown {
+    display: inline-block;
+}
+
+.dropdown h3 {
+    margin: 0 0 15px 20px;
 }
 
 /* Jumbotron */
@@ -255,11 +288,7 @@ header .clearfix::after {
     float: left;
     width: calc(100% / 3 - 40px);
     border: solid 1px #dddddd;
-    padding-bottom: 200px;
-}
-
-.colonna.sx {
-    padding-bottom: 273px;
+    height: 1300px;
 }
 
 .colonna.centrale {

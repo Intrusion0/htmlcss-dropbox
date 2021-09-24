@@ -620,7 +620,7 @@ header .clearfix::after {
     padding: 150px 0;
 }
 
-.domande_frequenti p, .domande_frequenti span {
+.domande_frequenti p {
     font-size: 16px;
     font-weight: 700;
     border-bottom: solid 1px #dddddd;
@@ -630,13 +630,11 @@ header .clearfix::after {
 
 .left-column-domande-frequenti {
     float: left;
-    width: 70%;
+    width: 100%;
 }
 
-.right-column-domande-frequenti {
+.left-column-domande-frequenti span {
     float: right;
-    width: 30%;
-    text-align: right;
 }
 
 /* Footer */
