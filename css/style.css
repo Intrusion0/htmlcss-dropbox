@@ -601,3 +601,48 @@ header .clearfix::after {
     font-weight: 600;
     line-height: 40px;
 }
+
+/* Sezione domande frequenti */
+
+.domande_frequenti {
+    width: 100%;
+}
+
+.domande_frequenti .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.domande_frequenti h2 {
+    border-bottom: solid 1px #dddddd;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+#padding_domande_frequenti {
+    padding: 150px 0;
+}
+
+.domande_frequenti p, .domande_frequenti span {
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: solid 1px #dddddd;
+    padding: 30px 0;
+    display: block;
+}
+
+.left-column-domande-frequenti {
+    float: left;
+    width: 70%;
+}
+
+.right-column-domande-frequenti {
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+
+.fa-chevron-down {
+    margin-right: 40px;
+}
