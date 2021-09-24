@@ -104,7 +104,12 @@ header .clearfix::after {
     font-size: 25px;
     padding: 5px 10px;
     background: #0061ff;
-    opacity: 0.5;
+    opacity: 0.2;
+}
+
+.fa-headset:hover {
+    background: #0061ff;
+    opacity: 0.9;
 }
 
 .text.text-right li {
