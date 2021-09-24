@@ -248,11 +248,7 @@ header .clearfix::after {
     float: left;
     width: calc(100% / 3 - 40px);
     border: solid 1px #dddddd;
-    padding-bottom: 200px;
-}
-
-.colonna.sx {
-    padding-bottom: 273px;
+    height: 1300px;
 }
 
 .colonna.centrale {

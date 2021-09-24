@@ -79,7 +79,7 @@ header .clearfix::after {
     text-decoration: none;
     color: black;
     margin: 0px 20px;
-    vertical-align: super;
+    vertical-align: middle;
     font-weight: 600;
 }
 
@@ -87,6 +87,13 @@ header .clearfix::after {
     padding: 5px 20px;
     font-size: 13px;
     color: white;
+}
+
+/* Bonus */
+
+.nav_perche_dropbox:hover, .nav_funzioni:hover, .nav_piani_e_prezzi:hover, .nav_supporto:hover, .nav_ufficio_vendite:hover, .nav_accedi:hover {
+    border-bottom: solid 2px black;
+    padding-bottom: 22px;
 }
 
 /* Jumbotron */
