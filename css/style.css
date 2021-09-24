@@ -201,12 +201,20 @@ header .clearfix::after {
     font-size: 18px;
 }
 
-.piano_tariffario h3 {
-    font-size: 37px;
+.left-span-icon {
+    float: left;
+    width: 7%;
+    padding: 0 0 20px 0;
 }
 
-.piano_tariffario span {
-    margin: 25px 0;
+.right-span-text {
+    float: right;
+    width: 93%;
+    padding: 0 0 20px 0;
+}
+
+.piano_tariffario h3 {
+    font-size: 37px;
 }
 
 .seconda_sezione ul li.margin_bottom {

@@ -92,6 +92,21 @@ header .clearfix::after {
 
 /* BONUS */
 
+.chatta_con_noi {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 80;
+}
+
+.fa-headset {
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+    background: #0061ff;
+    opacity: 0.5;
+}
+
 .text.text-right li {
     line-height: 26px;
 }
