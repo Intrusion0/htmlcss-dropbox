@@ -1,0 +1,705 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Generali */
+
+body {
+    font-family: 'Open Sans', sans-serif
+}
+
+.far {
+    font-size: 20px;
+}
+
+/* button */
+
+.btn {
+    color: white;
+    background-color: #0061ff;
+}
+
+/* centratura */
+
+.centratura {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Intestazione */
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 20px;
+    border-bottom: solid 1px #dddddd;
+    background-color: white;
+    z-index: 99;
+}
+
+header .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.text-left {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.text-left img {
+    margin-right: 15px;
+}
+
+.text-right {
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.text ul {
+    list-style: none;
+}
+
+.text ul li {
+    display: inline-block;
+}
+
+.text ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 20px;
+    vertical-align: super;
+    font-weight: 600;
+}
+
+#btn-header {
+    padding: 5px 20px;
+    font-size: 13px;
+    color: white;
+}
+
+/* Jumbotron */
+
+#jumbotron {
+    background-color: #b4d0e7; 
+    width: 100%;
+    height: 885px;
+}
+
+#jumbotron .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#title {
+    width: 100%;
+    padding: 150px 0 60px 0;
+}
+
+#title h1 {
+    font-size: 95px;
+    line-height: 108px;
+}
+
+/* colonna sinistra */
+
+.left-column {
+    float: left;
+    width: 30%;
+    font-weight: 600;
+}
+
+.left-column p {
+    margin-bottom: 30px;
+    font-size: 19px;
+    line-height: 26px;
+}
+
+.left-column a {
+    text-decoration: none;
+}
+
+.left-column div{
+    margin: 20px 0 30px 0;
+}
+
+.btn.btn-jumbo {
+    padding: 8px 30px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.arrow-style {
+    color: black;
+    font-size: 40px;
+}
+
+/* colonna destra */
+
+.right-column {
+    float: right;
+    width: 60%;
+}
+
+.right-column img {
+    width: 100%;
+}
+
+/* Corpo centrale */
+
+.centratura_main {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.piano_tariffario {
+    width: 100%;
+}
+
+.piano_tariffario .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.piano_tariffario h2 {
+    font-size: 50px;
+    margin-top: 230px;
+    margin-bottom: 50px;
+}
+
+.piano_tariffario form {
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+#check-fatturazione-annuale {
+    margin-left: 15px;
+}
+
+.seconda_sezione ul {
+    list-style: none;
+}
+
+.seconda_sezione ul li {
+    margin: 25px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.piano_tariffario h3 {
+    font-size: 37px;
+}
+
+.piano_tariffario span {
+    margin: 25px 0;
+}
+
+.seconda_sezione ul li.margin_bottom {
+    margin-bottom: 60px;
+}
+
+.seconda_sezione h4 {
+    padding: 20px 0 10px 0;
+    font-size: 22px;
+}
+
+.p_weight {
+    font-weight: 600;
+    padding: 40px 0;
+}
+
+.p_weight a {
+    color: #0061ff;
+}
+
+.btn.btn-piano-tariffario {
+    padding: 8px 50px;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.grey {
+    color: lightslategrey;
+    margin-bottom: 50px;
+}
+
+.style_hr {
+    width: 20%;
+    border: solid 1px #dddddd;
+}
+
+.colonna {
+    float: left;
+    width: calc(100% / 3 - 40px);
+    border: solid 1px #dddddd;
+    padding-bottom: 200px;
+}
+
+.colonna.sx {
+    padding-bottom: 273px;
+}
+
+.colonna.centrale {
+    margin: 0 60px;
+}
+
+.terza_sezione h4 {
+    padding: 50px 0 10px 0;
+    font-size: 20px;
+}
+
+.terza_sezione ul {
+    list-style: none;
+}
+
+.terza_sezione ul li {
+    margin: 25px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.fa-check::before {
+    color:#0061ff;
+}
+
+/* riquadro enterprise */
+
+.enterprise {
+    margin-top: 50px;
+    border: solid 1px #dddddd;
+    padding-bottom: 25px;
+}
+
+.enterprise .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.centratura_enterprise {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.enterprise_left_column {
+    float: left;
+    width: 70%;
+}
+
+.enterprise_right_column {
+    float: left;
+    width: 30%;
+    text-align: right;
+    padding: 8px 0;
+}
+
+.enterprise_left_column h4 {
+    padding: 20px 0;
+}
+
+.enterprise_left_column p {
+    padding-top: 10px;
+}
+
+.btn.btn-enterprise {
+    padding: 8px 50px;
+    font-size: 16px;
+    line-height: 26px;
+    text-decoration: none;
+}
+
+.centratura_text_column {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.fa-user::before {
+    margin: 0 5px 0 0;
+}
+
+.fa-building::before {
+    margin: 0 5px 0 0;
+}
+
+.icon {
+    text-align: center;
+    border-bottom: solid 1px #dddddd;
+    padding: 15px 0;
+}
+
+/* Sezione partner dropbox */
+
+.partner {
+    margin: 200px 0 100px 0;
+}
+
+.partner .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#left_column_partner {
+    float: left;
+    width: 50%;
+}
+
+#left_column_partner img {
+    max-width: 100%;
+}
+
+#right_column_partner {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+
+#right_column_partner h3 {
+    margin-top: 50px;
+    font-size: 32px;
+}
+
+#right_column_partner p {
+    margin: 30px 0;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.btn-partner {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 8px 50px;
+    border: solid 1px black;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+/* Sezione operazioni dropbox business */
+
+.operazioni {
+    width: 100%;
+    margin: 0 0 80px 0;
+}
+
+.first-row::after, .second-row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.operazioni h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.column {
+    float: left;
+    width: calc(100% / 3 - 40px);
+}
+
+.column.central {
+    margin: 0 60px;
+}
+
+.second-row {
+    margin-top: 70px;
+}
+
+.column img {
+    max-width: 100%;
+}
+
+.operazioni p {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.operazioni h3 {
+    font-size: 32px;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.text_down h2 {
+    width: 55%;
+    font-size: 50px;
+    margin: 230px 0 30px 0;
+}
+
+.text_down a {
+    color: #0061ff;
+    font-weight: 600;
+}
+
+/* Sezione clienti dropbox */
+
+.clienti {
+    width: 100%;
+}
+
+.clienti .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column_clienti {
+    float: left;
+    width: 30%;
+    position: relative;
+    height: 500px;
+}
+
+.column_clienti_centrale {
+    float: left;
+    width: 40%;
+    background-color: #f5f5f5;
+    height: 500px;
+    overflow: auto;
+}
+
+.centratura_img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centratura_blocco_centrale {
+    width: 87%;
+    margin: 0 auto;
+}
+
+.centratura_blocco_centrale img {
+    width: 170px;
+    height: 120px;
+    filter: invert(1);
+}
+
+.centratura_blocco_centrale p {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+#style_hr_clienti {
+    width: 50px;
+    border: solid 1px rgb(207, 207, 207);
+    margin-bottom: 60px;
+}
+
+.square {
+    height: 50%;
+    width: 50%;
+}
+
+.top_left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color:#a2d39b;
+}
+
+.top_left.border {
+    border: 15px solid #c9ffc1;
+}
+
+.top_right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #61082b;
+}
+
+.bottom_left {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0093ce;
+}
+
+.bottom_right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #ff1c1c;
+}
+
+.red {
+    background-color: #d5001f;
+}
+
+.lightblue {
+    background-color: #b4d0e7;
+}
+
+.blue {
+    background-color: #0d2481;
+}
+
+.yellow {
+    background-color: #ffd830;
+}
+
+/* sezione prova gratuita */
+
+.prova_gratuita {
+    background-color: #b4d0e7;
+    width: 100%;
+}
+
+.prova_gratuita .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#left-column-prova-gratuita {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+#left-column-prova-gratuita h2 {
+    font-size: 46px;
+    color: #61082b;
+    padding: 100px 15px;
+}
+
+#right-column-prova-gratuita {
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding: 100px 15px;
+}
+
+#btn-prova_gratuita {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 8px 80px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+/* Sezione domande frequenti */
+
+.domande_frequenti {
+    width: 100%;
+}
+
+.domande_frequenti .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.domande_frequenti h2 {
+    border-bottom: solid 1px #dddddd;
+    padding-bottom: 50px;
+    font-size: 40px;
+}
+
+#padding_domande_frequenti {
+    padding: 150px 0;
+}
+
+.domande_frequenti p, .domande_frequenti span {
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: solid 1px #dddddd;
+    padding: 30px 40px 30px;
+    display: block;
+}
+
+.left-column-domande-frequenti {
+    float: left;
+    width: 70%;
+}
+
+.right-column-domande-frequenti {
+    float: right;
+    width: 30%;
+    text-align: right;
+}
+
+/* Footer */
+
+.footer {
+    background-color: black;
+    width: 100%;
+}
+
+.footer .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.centratura_footer {
+    width: 75%;
+    margin: 0 auto;
+    padding: 150px 0;
+}
+
+.column-footer {
+    float: left;
+    width: calc(100% / 5 - 70px);
+    margin-right: 70px;
+}
+
+.footer .column-footer h3 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    margin: 20px 0;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#style-hr-footer {
+    border-bottom: solid 1px #999999;
+    width: 10%;
+    margin: 120px 0 50px 0;
+}
+
+.color-language {
+    color: #999999;
+}
+
+.fa-sort-up {
+    vertical-align: sub;
+    color: #999999;
+}
