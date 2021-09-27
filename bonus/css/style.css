@@ -16,6 +16,14 @@ body {
     font-size: 20px;
 }
 
+/* Clearfix */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* button */
 
 .btn {
@@ -39,12 +47,6 @@ header {
     border-bottom: solid 1px #dddddd;
     background-color: white;
     z-index: 99;
-}
-
-header .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .text {
@@ -157,12 +159,6 @@ header .clearfix::after {
     height: 885px;
 }
 
-#jumbotron .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 #title {
     width: 100%;
     padding: 150px 0 60px 0;
@@ -228,12 +224,6 @@ header .clearfix::after {
     width: 100%;
 }
 
-.piano_tariffario .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .piano_tariffario h2 {
     font-size: 50px;
     margin-top: 230px;
@@ -259,6 +249,11 @@ header .clearfix::after {
     margin: 25px 0;
     font-weight: 600;
     font-size: 18px;
+    padding-left: 20px;
+}
+
+.fa-user, .fa-folder, .fa-pencil-alt, .fa-check, .fa-user-plus, .fa-smile {
+    margin-left: -19px;
 }
 
 .piano_tariffario h3 {
@@ -328,6 +323,7 @@ header .clearfix::after {
     margin: 25px 0;
     font-weight: 600;
     font-size: 18px;
+    padding-left: 20px;
 }
 
 .fa-check::before {
@@ -340,12 +336,6 @@ header .clearfix::after {
     margin-top: 50px;
     border: solid 1px #dddddd;
     padding-bottom: 25px;
-}
-
-.enterprise .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .centratura_enterprise {
@@ -405,12 +395,6 @@ header .clearfix::after {
 
 .partner {
     margin: 200px 0 100px 0;
-}
-
-.partner .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 #left_column_partner {
@@ -510,12 +494,6 @@ header .clearfix::after {
 
 .clienti {
     width: 100%;
-}
-
-.clienti .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .column_clienti {
@@ -624,12 +602,6 @@ header .clearfix::after {
     width: 100%;
 }
 
-.prova_gratuita .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 #left-column-prova-gratuita {
     float: left;
     width: 50%;
@@ -662,12 +634,6 @@ header .clearfix::after {
 
 .domande_frequenti {
     width: 100%;
-}
-
-.domande_frequenti .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .domande_frequenti h2 {
@@ -704,12 +670,6 @@ header .clearfix::after {
 .footer {
     background-color: black;
     width: 100%;
-}
-
-.footer .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
 }
 
 .centratura_footer {
