@@ -96,112 +96,6 @@ header {
     vertical-align: middle;
 }
 
-/* BONUS */
-
-/* chat assistenza BONUS */
-
-.chatta_con_noi {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 80;
-}
-
-/* Dropdown nav header BONUS */
-
-.fa-headset {
-    color: white;
-    font-size: 25px;
-    padding: 5px 10px;
-    background: #0061ff;
-    opacity: 0.2;
-}
-
-.fa-headset:hover {
-    background: #0061ff;
-    opacity: 0.9;
-}
-
-.text.text-right li {
-    line-height: 26px;
-}
-
-.nav_perche_dropbox:hover, .nav_funzioni:hover, .nav_piani_e_prezzi:hover, .nav_supporto:hover, .nav_ufficio_vendite:hover, .nav_accedi:hover {
-    border-bottom: solid 2px black;
-    padding-bottom: 22px;
-}
-
-.dropdown-content {
-    display: none;
-    background-color: #f9f9f9;
-    width: 550px;
-    z-index: 30;
-    padding: 30px 0;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    position: absolute;
-    margin-top: 25px;
-    border: solid 1px #dddddd;
-}
-
-.dropdown ul li {
-    display: block;
-    font-size: 15px;
-    margin-bottom: 30px;
-}
-
-.prima_sezione_dropdown, .seconda_sezione_dropdown, .terza_sezione_dropdown {
-    display: inline-block;
-    padding: 0 20px;
-}
-
-.dropdown h3 {
-    margin: 0 0 20px 0;
-}
-
-.hr-dropdown {
-    border: solid 1px black;
-    width: 35%;
-}
-
-.dropdown ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    margin: 0;
-}
-
-/* Button hover BONUS */
-
-#btn-header:hover , .btn-jumbo:hover , .btn-piano-tariffario:hover , .btn-enterprise:hover {
-    background-color: #3b85ff
-}
-
-.btn-partner:hover, #btn-prova_gratuita:hover {
-    background-color: #f5f5f5;
-    border: solid 2px #0061ff;
-}
-
-/* Domande frequenti BONUS */
-
-.left-column-domande-frequenti:hover .accordion-item:hover .accordion-item-content {
-    height: auto;
-}
-
-.accordion-item-content, .left-column-domande-frequenti:hover .accordion-item-content {
-    overflow: hidden;
-    transition: height .25s;
-    height: 0;
-}
-
-.domande_frequenti .accordion-item .accordion-item-content p {
-    font-size: 15px;
-    font-weight: 600;
-    padding: 30px 40px 30px;
-}
-
 /* Jumbotron */
 
 #jumbotron {
@@ -605,10 +499,6 @@ header {
     background-color:#a2d39b;
 }
 
-.top_left.border {
-    border: 15px solid #c9ffc1;
-}
-
 .top_right {
     position: absolute;
     top: 0;
@@ -766,4 +656,151 @@ header {
 .fa-sort-up {
     vertical-align: sub;
     color: #999999;
+}
+
+/* BONUS */
+
+/* chat assistenza BONUS */
+
+.chatta_con_noi {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 80;
+}
+
+/* Dropdown nav header BONUS */
+
+.fa-headset {
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px;
+    background: #0061ff;
+    opacity: 0.2;
+}
+
+.fa-headset:hover {
+    background: #0061ff;
+    opacity: 0.9;
+}
+
+.text.text-right li {
+    line-height: 26px;
+}
+
+.nav_perche_dropbox:hover, .nav_funzioni:hover, .nav_piani_e_prezzi:hover, .nav_supporto:hover, .nav_ufficio_vendite:hover, .nav_accedi:hover {
+    border-bottom: solid 2px black;
+    padding-bottom: 22px;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    width: 550px;
+    z-index: 30;
+    padding: 30px 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    margin-top: 25px;
+    border: solid 1px #dddddd;
+}
+
+.dropdown ul li {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.prima_sezione_dropdown, .seconda_sezione_dropdown, .terza_sezione_dropdown {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.dropdown h3 {
+    margin: 0 0 20px 0;
+}
+
+.hr-dropdown {
+    border: solid 1px black;
+    width: 35%;
+}
+
+.dropdown ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Button hover BONUS */
+
+#btn-header:hover , .btn-jumbo:hover , .btn-piano-tariffario:hover , .btn-enterprise:hover {
+    background-color: #3b85ff
+}
+
+.btn-partner:hover, #btn-prova_gratuita:hover {
+    background-color: #f5f5f5;
+    border: solid 2px #0061ff;
+}
+
+/* Domande frequenti BONUS */
+
+.left-column-domande-frequenti:hover .accordion-item:hover .accordion-item-content {
+    height: auto;
+}
+
+.accordion-item-content, .left-column-domande-frequenti:hover .accordion-item-content {
+    overflow: hidden;
+    transition: height .25s;
+    height: 0;
+}
+
+.domande_frequenti .accordion-item .accordion-item-content p {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 30px 40px 30px;
+}
+
+/* Sezione clienti dropbox BONUS */
+
+.top_left:hover {
+    border: solid 13px #d0e9cd;
+}
+
+.top_right:hover {
+    border: solid 13px #b08495;
+}
+
+.bottom_left:hover {
+    border: solid 13px #80c9e6;
+}
+
+.bottom_right:hover {
+    border: solid 13px #ff8e8e;
+}
+
+.top_left.red:hover {
+    border: solid 13px #ea808f;
+}
+
+.top_right.lightblue:hover {
+    border: solid 13px #d9e7f3;
+}
+
+.bottom_left.blue:hover {
+    border: solid 13px #8692c0;
+}
+
+.bottom_right.yellow:hover {
+    border: solid 13px #ffeb98;
+}
+
+/* Sezione footer BONUS */
+
+.footer ul li a:hover {
+    text-decoration: underline;
+    color: rgb(47, 137, 255);
 }
